@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^login/$', views.LoginView.as_view()),
     url(r'^index/$', views.IndexView.as_view()),
     url(r'^register/$', views.register),
+    url(r'^tes/$', views.tes),
 ]
